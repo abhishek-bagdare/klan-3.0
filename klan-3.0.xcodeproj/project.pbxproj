@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDA63A5329FC6B2B00D0307D /* EditUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA63A5229FC6B2B00D0307D /* EditUserView.swift */; };
+		FDA63A5729FCC42F00D0307D /* MyListingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA63A5629FCC42F00D0307D /* MyListingsView.swift */; };
+		FDA63A5929FCD07200D0307D /* EditApartmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA63A5829FCD07200D0307D /* EditApartmentView.swift */; };
+		FDDDF28E29EF27A800867D96 /* klan_3_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDDF28D29EF27A800867D96 /* klan_3_0App.swift */; };
+		FDDDF29029EF27A800867D96 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDDF28F29EF27A800867D96 /* LoginView.swift */; };
+		FDDDF29229EF27AA00867D96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDDF29129EF27AA00867D96 /* Assets.xcassets */; };
+		FDDDF29529EF27AA00867D96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDDF29429EF27AA00867D96 /* Preview Assets.xcassets */; };
+		FDDDF29729EF27AA00867D96 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDDF29629EF27AA00867D96 /* Persistence.swift */; };
+		FDDDF29A29EF27AA00867D96 /* klan_3_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDDDF29829EF27AA00867D96 /* klan_3_0.xcdatamodeld */; };
+		FDDDF2A429EF27AA00867D96 /* klan_3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDDF2A329EF27AA00867D96 /* klan_3_0Tests.swift */; };
+		FDDDF2AE29EF27AA00867D96 /* klan_3_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDDF2AD29EF27AA00867D96 /* klan_3_0UITests.swift */; };
+		FDDDF2B029EF27AA00867D96 /* klan_3_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDDF2AF29EF27AA00867D96 /* klan_3_0UITestsLaunchTests.swift */; };
+		FDEB005C29F7269800977DCB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDEB005B29F7269800977DCB /* GoogleService-Info.plist */; };
+		FDEB006329F7310700977DCB /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB006229F7310700977DCB /* ImagePicker.swift */; };
+		FDEB006C29F76C0400977DCB /* MainMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB006B29F76C0400977DCB /* MainMessageView.swift */; };
+		FDEB006F29F77CAD00977DCB /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FDEB006E29F77CAD00977DCB /* SDWebImageSwiftUI */; };
+		FDEB007129F7870F00977DCB /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB007029F7870F00977DCB /* ChatView.swift */; };
+		FDEB007529FA0EF700977DCB /* FindApartmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB007429FA0EF700977DCB /* FindApartmentsView.swift */; };
+		FDEB007829FA11B400977DCB /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB007729FA11B400977DCB /* FirebaseManager.swift */; };
+		FDEB007B29FA11F200977DCB /* Apartment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB007A29FA11F200977DCB /* Apartment.swift */; };
+		FDEB007D29FA122C00977DCB /* Amenities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB007C29FA122C00977DCB /* Amenities.swift */; };
+		FDEB007F29FA126400977DCB /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB007E29FA126400977DCB /* Address.swift */; };
+		FDEB008129FA128500977DCB /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB008029FA128500977DCB /* Post.swift */; };
+		FDEB008329FA129C00977DCB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB008229FA129C00977DCB /* User.swift */; };
+		FDEB008529FA14D400977DCB /* CreateApartmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB008429FA14D400977DCB /* CreateApartmentView.swift */; };
+		FDEB008729FACA7300977DCB /* LeagueSpartan-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FDEB008629FACA7300977DCB /* LeagueSpartan-Bold.otf */; };
+		FDEB008A29FAF0F700977DCB /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB008929FAF0F700977DCB /* TabBarView.swift */; };
+		FDEB008C29FAF1D800977DCB /* HomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB008B29FAF1D800977DCB /* HomView.swift */; };
+		FDEB008E29FB825800977DCB /* MyAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB008D29FB825800977DCB /* MyAccountView.swift */; };
+		FDEB009129FB8FD000977DCB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FDEB009029FB8FD000977DCB /* FirebaseAuth */; };
+		FDEB009329FB8FD000977DCB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FDEB009229FB8FD000977DCB /* FirebaseFirestore */; };
+		FDEB009529FB8FD000977DCB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FDEB009429FB8FD000977DCB /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDDDF2A029EF27AA00867D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDDDF28229EF27A800867D96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDDDF28929EF27A800867D96;
+			remoteInfo = "klan-3.0";
+		};
+		FDDDF2AA29EF27AA00867D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDDDF28229EF27A800867D96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDDDF28929EF27A800867D96;
+			remoteInfo = "klan-3.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDA63A5229FC6B2B00D0307D /* EditUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserView.swift; sourceTree = "<group>"; };
+		FDA63A5629FCC42F00D0307D /* MyListingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListingsView.swift; sourceTree = "<group>"; };
+		FDA63A5829FCD07200D0307D /* EditApartmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditApartmentView.swift; sourceTree = "<group>"; };
+		FDDDF28A29EF27A800867D96 /* klan-3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "klan-3.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDDF28D29EF27A800867D96 /* klan_3_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = klan_3_0App.swift; sourceTree = "<group>"; };
+		FDDDF28F29EF27A800867D96 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FDDDF29129EF27AA00867D96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDDDF29429EF27AA00867D96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDDDF29629EF27AA00867D96 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FDDDF29929EF27AA00867D96 /* klan_3_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = klan_3_0.xcdatamodel; sourceTree = "<group>"; };
+		FDDDF29F29EF27AA00867D96 /* klan-3.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "klan-3.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDDF2A329EF27AA00867D96 /* klan_3_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = klan_3_0Tests.swift; sourceTree = "<group>"; };
+		FDDDF2A929EF27AA00867D96 /* klan-3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "klan-3.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDDF2AD29EF27AA00867D96 /* klan_3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = klan_3_0UITests.swift; sourceTree = "<group>"; };
+		FDDDF2AF29EF27AA00867D96 /* klan_3_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = klan_3_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDEB005B29F7269800977DCB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FDEB006229F7310700977DCB /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		FDEB006B29F76C0400977DCB /* MainMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMessageView.swift; sourceTree = "<group>"; };
+		FDEB007029F7870F00977DCB /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		FDEB007429FA0EF700977DCB /* FindApartmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindApartmentsView.swift; sourceTree = "<group>"; };
+		FDEB007729FA11B400977DCB /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		FDEB007A29FA11F200977DCB /* Apartment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apartment.swift; sourceTree = "<group>"; };
+		FDEB007C29FA122C00977DCB /* Amenities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amenities.swift; sourceTree = "<group>"; };
+		FDEB007E29FA126400977DCB /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		FDEB008029FA128500977DCB /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FDEB008229FA129C00977DCB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FDEB008429FA14D400977DCB /* CreateApartmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateApartmentView.swift; sourceTree = "<group>"; };
+		FDEB008629FACA7300977DCB /* LeagueSpartan-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Bold.otf"; sourceTree = "<group>"; };
+		FDEB008829FACB2700977DCB /* klan-3-0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "klan-3-0-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FDEB008929FAF0F700977DCB /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		FDEB008B29FAF1D800977DCB /* HomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomView.swift; sourceTree = "<group>"; };
+		FDEB008D29FB825800977DCB /* MyAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDDDF28729EF27A800867D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDEB006F29F77CAD00977DCB /* SDWebImageSwiftUI in Frameworks */,
+				FDEB009529FB8FD000977DCB /* FirebaseStorage in Frameworks */,
+				FDEB009129FB8FD000977DCB /* FirebaseAuth in Frameworks */,
+				FDEB009329FB8FD000977DCB /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDDF29C29EF27AA00867D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDDF2A629EF27AA00867D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDDDF28129EF27A800867D96 = {
+			isa = PBXGroup;
+			children = (
+				FDDDF28C29EF27A800867D96 /* klan-3.0 */,
+				FDDDF2A229EF27AA00867D96 /* klan-3.0Tests */,
+				FDDDF2AC29EF27AA00867D96 /* klan-3.0UITests */,
+				FDDDF28B29EF27A800867D96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDDDF28B29EF27A800867D96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDDDF28A29EF27A800867D96 /* klan-3.0.app */,
+				FDDDF29F29EF27AA00867D96 /* klan-3.0Tests.xctest */,
+				FDDDF2A929EF27AA00867D96 /* klan-3.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDDDF28C29EF27A800867D96 /* klan-3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				FDEB008929FAF0F700977DCB /* TabBarView.swift */,
+				FDEB008829FACB2700977DCB /* klan-3-0-Info.plist */,
+				FDEB008629FACA7300977DCB /* LeagueSpartan-Bold.otf */,
+				FDEB007929FA11E300977DCB /* Models */,
+				FDEB007629FA11A600977DCB /* Firebase */,
+				FDDDF28D29EF27A800867D96 /* klan_3_0App.swift */,
+				FDDDF28F29EF27A800867D96 /* LoginView.swift */,
+				FDEB005B29F7269800977DCB /* GoogleService-Info.plist */,
+				FDDDF29129EF27AA00867D96 /* Assets.xcassets */,
+				FDDDF29629EF27AA00867D96 /* Persistence.swift */,
+				FDDDF29829EF27AA00867D96 /* klan_3_0.xcdatamodeld */,
+				FDDDF29329EF27AA00867D96 /* Preview Content */,
+				FDEB006229F7310700977DCB /* ImagePicker.swift */,
+				FDEB006B29F76C0400977DCB /* MainMessageView.swift */,
+				FDEB007029F7870F00977DCB /* ChatView.swift */,
+				FDEB007429FA0EF700977DCB /* FindApartmentsView.swift */,
+				FDEB008429FA14D400977DCB /* CreateApartmentView.swift */,
+				FDEB008B29FAF1D800977DCB /* HomView.swift */,
+				FDEB008D29FB825800977DCB /* MyAccountView.swift */,
+				FDA63A5229FC6B2B00D0307D /* EditUserView.swift */,
+				FDA63A5629FCC42F00D0307D /* MyListingsView.swift */,
+				FDA63A5829FCD07200D0307D /* EditApartmentView.swift */,
+			);
+			path = "klan-3.0";
+			sourceTree = "<group>";
+		};
+		FDDDF29329EF27AA00867D96 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDDDF29429EF27AA00867D96 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDDDF2A229EF27AA00867D96 /* klan-3.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FDDDF2A329EF27AA00867D96 /* klan_3_0Tests.swift */,
+			);
+			path = "klan-3.0Tests";
+			sourceTree = "<group>";
+		};
+		FDDDF2AC29EF27AA00867D96 /* klan-3.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDDDF2AD29EF27AA00867D96 /* klan_3_0UITests.swift */,
+				FDDDF2AF29EF27AA00867D96 /* klan_3_0UITestsLaunchTests.swift */,
+			);
+			path = "klan-3.0UITests";
+			sourceTree = "<group>";
+		};
+		FDEB007629FA11A600977DCB /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				FDEB007729FA11B400977DCB /* FirebaseManager.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		FDEB007929FA11E300977DCB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FDEB007A29FA11F200977DCB /* Apartment.swift */,
+				FDEB007C29FA122C00977DCB /* Amenities.swift */,
+				FDEB007E29FA126400977DCB /* Address.swift */,
+				FDEB008029FA128500977DCB /* Post.swift */,
+				FDEB008229FA129C00977DCB /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDDDF28929EF27A800867D96 /* klan-3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDDF2B329EF27AA00867D96 /* Build configuration list for PBXNativeTarget "klan-3.0" */;
+			buildPhases = (
+				FDDDF28629EF27A800867D96 /* Sources */,
+				FDDDF28729EF27A800867D96 /* Frameworks */,
+				FDDDF28829EF27A800867D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "klan-3.0";
+			packageProductDependencies = (
+				FDEB006E29F77CAD00977DCB /* SDWebImageSwiftUI */,
+				FDEB009029FB8FD000977DCB /* FirebaseAuth */,
+				FDEB009229FB8FD000977DCB /* FirebaseFirestore */,
+				FDEB009429FB8FD000977DCB /* FirebaseStorage */,
+			);
+			productName = "klan-3.0";
+			productReference = FDDDF28A29EF27A800867D96 /* klan-3.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDDDF29E29EF27AA00867D96 /* klan-3.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDDF2B629EF27AA00867D96 /* Build configuration list for PBXNativeTarget "klan-3.0Tests" */;
+			buildPhases = (
+				FDDDF29B29EF27AA00867D96 /* Sources */,
+				FDDDF29C29EF27AA00867D96 /* Frameworks */,
+				FDDDF29D29EF27AA00867D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDDDF2A129EF27AA00867D96 /* PBXTargetDependency */,
+			);
+			name = "klan-3.0Tests";
+			productName = "klan-3.0Tests";
+			productReference = FDDDF29F29EF27AA00867D96 /* klan-3.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDDDF2A829EF27AA00867D96 /* klan-3.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDDF2B929EF27AA00867D96 /* Build configuration list for PBXNativeTarget "klan-3.0UITests" */;
+			buildPhases = (
+				FDDDF2A529EF27AA00867D96 /* Sources */,
+				FDDDF2A629EF27AA00867D96 /* Frameworks */,
+				FDDDF2A729EF27AA00867D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDDDF2AB29EF27AA00867D96 /* PBXTargetDependency */,
+			);
+			name = "klan-3.0UITests";
+			productName = "klan-3.0UITests";
+			productReference = FDDDF2A929EF27AA00867D96 /* klan-3.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDDDF28229EF27A800867D96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FDDDF28929EF27A800867D96 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					FDDDF29E29EF27AA00867D96 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FDDDF28929EF27A800867D96;
+					};
+					FDDDF2A829EF27AA00867D96 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FDDDF28929EF27A800867D96;
+					};
+				};
+			};
+			buildConfigurationList = FDDDF28529EF27A800867D96 /* Build configuration list for PBXProject "klan-3.0" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDDDF28129EF27A800867D96;
+			packageReferences = (
+				FDEB006D29F77CAD00977DCB /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				FDEB008F29FB8FD000977DCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = FDDDF28B29EF27A800867D96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDDDF28929EF27A800867D96 /* klan-3.0 */,
+				FDDDF29E29EF27AA00867D96 /* klan-3.0Tests */,
+				FDDDF2A829EF27AA00867D96 /* klan-3.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDDDF28829EF27A800867D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDDF29529EF27AA00867D96 /* Preview Assets.xcassets in Resources */,
+				FDDDF29229EF27AA00867D96 /* Assets.xcassets in Resources */,
+				FDEB005C29F7269800977DCB /* GoogleService-Info.plist in Resources */,
+				FDEB008729FACA7300977DCB /* LeagueSpartan-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDDF29D29EF27AA00867D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDDF2A729EF27AA00867D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDDDF28629EF27A800867D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA63A5929FCD07200D0307D /* EditApartmentView.swift in Sources */,
+				FDEB008529FA14D400977DCB /* CreateApartmentView.swift in Sources */,
+				FDDDF29A29EF27AA00867D96 /* klan_3_0.xcdatamodeld in Sources */,
+				FDEB008A29FAF0F700977DCB /* TabBarView.swift in Sources */,
+				FDDDF29729EF27AA00867D96 /* Persistence.swift in Sources */,
+				FDEB008E29FB825800977DCB /* MyAccountView.swift in Sources */,
+				FDEB007F29FA126400977DCB /* Address.swift in Sources */,
+				FDEB007829FA11B400977DCB /* FirebaseManager.swift in Sources */,
+				FDEB007529FA0EF700977DCB /* FindApartmentsView.swift in Sources */,
+				FDEB008129FA128500977DCB /* Post.swift in Sources */,
+				FDA63A5729FCC42F00D0307D /* MyListingsView.swift in Sources */,
+				FDEB008C29FAF1D800977DCB /* HomView.swift in Sources */,
+				FDEB006329F7310700977DCB /* ImagePicker.swift in Sources */,
+				FDA63A5329FC6B2B00D0307D /* EditUserView.swift in Sources */,
+				FDDDF29029EF27A800867D96 /* LoginView.swift in Sources */,
+				FDEB008329FA129C00977DCB /* User.swift in Sources */,
+				FDEB007129F7870F00977DCB /* ChatView.swift in Sources */,
+				FDDDF28E29EF27A800867D96 /* klan_3_0App.swift in Sources */,
+				FDEB007D29FA122C00977DCB /* Amenities.swift in Sources */,
+				FDEB007B29FA11F200977DCB /* Apartment.swift in Sources */,
+				FDEB006C29F76C0400977DCB /* MainMessageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDDF29B29EF27AA00867D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDDF2A429EF27AA00867D96 /* klan_3_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDDF2A529EF27AA00867D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDDF2B029EF27AA00867D96 /* klan_3_0UITestsLaunchTests.swift in Sources */,
+				FDDDF2AE29EF27AA00867D96 /* klan_3_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDDDF2A129EF27AA00867D96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDDDF28929EF27A800867D96 /* klan-3.0 */;
+			targetProxy = FDDDF2A029EF27AA00867D96 /* PBXContainerItemProxy */;
+		};
+		FDDDF2AB29EF27AA00867D96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDDDF28929EF27A800867D96 /* klan-3.0 */;
+			targetProxy = FDDDF2AA29EF27AA00867D96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FDDDF2B129EF27AA00867D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDDDF2B229EF27AA00867D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDDDF2B429EF27AA00867D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"klan-3.0/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "klan-3-0-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zappfoundry.klan-3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDDDF2B529EF27AA00867D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"klan-3.0/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "klan-3-0-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zappfoundry.klan-3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDDDF2B729EF27AA00867D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zappfoundry.klan-3-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/klan-3.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/klan-3.0";
+			};
+			name = Debug;
+		};
+		FDDDF2B829EF27AA00867D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zappfoundry.klan-3-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/klan-3.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/klan-3.0";
+			};
+			name = Release;
+		};
+		FDDDF2BA29EF27AA00867D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zappfoundry.klan-3-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "klan-3.0";
+			};
+			name = Debug;
+		};
+		FDDDF2BB29EF27AA00867D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zappfoundry.klan-3-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "klan-3.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDDDF28529EF27A800867D96 /* Build configuration list for PBXProject "klan-3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDDF2B129EF27AA00867D96 /* Debug */,
+				FDDDF2B229EF27AA00867D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDDF2B329EF27AA00867D96 /* Build configuration list for PBXNativeTarget "klan-3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDDF2B429EF27AA00867D96 /* Debug */,
+				FDDDF2B529EF27AA00867D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDDF2B629EF27AA00867D96 /* Build configuration list for PBXNativeTarget "klan-3.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDDF2B729EF27AA00867D96 /* Debug */,
+				FDDDF2B829EF27AA00867D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDDF2B929EF27AA00867D96 /* Build configuration list for PBXNativeTarget "klan-3.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDDF2BA29EF27AA00867D96 /* Debug */,
+				FDDDF2BB29EF27AA00867D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FDEB006D29F77CAD00977DCB /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		FDEB008F29FB8FD000977DCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FDEB006E29F77CAD00977DCB /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDEB006D29F77CAD00977DCB /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		FDEB009029FB8FD000977DCB /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDEB008F29FB8FD000977DCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FDEB009229FB8FD000977DCB /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDEB008F29FB8FD000977DCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		FDEB009429FB8FD000977DCB /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDEB008F29FB8FD000977DCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		FDDDF29829EF27AA00867D96 /* klan_3_0.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDDDF29929EF27AA00867D96 /* klan_3_0.xcdatamodel */,
+			);
+			currentVersion = FDDDF29929EF27AA00867D96 /* klan_3_0.xcdatamodel */;
+			path = klan_3_0.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDDDF28229EF27A800867D96 /* Project object */;
+}
